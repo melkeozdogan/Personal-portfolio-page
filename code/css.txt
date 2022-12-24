@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+nav {
+  background-color: #F48FB1;
+  color: #1F271B;
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+nav a {
+  color: #212121;
+  font-family: Anybody;
+  font-size: 22px;
+  margin-left: 22px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+header {
+  background-image: url("https://cdnb.artstation.com/p/assets/images/images/030/263/139/large/denis-istomin-chicco3.jpg?1600094773");
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+}
+header::after {
+  content: '';
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.2;
+}
+header * {
+  position: relative;
+  z-index: 1;
+}
+header h1 {
+  font-size: 100px;
+  font-family: 'Anybody', cursive;
+  margin-bottom: 5px;
+}
+header h2 {
+  font-family: 'Anybody', cursive;
+  font-size: 30px;
+  margin: 0;
+}
+body {
+  background-color: #9FA8DA;
+  margin: 1;
+}
+section {
+  text-align: center;
+  padding: 35px;
+  font-familt: 'Anybody', cursive;
+}
+.bg-md-trq {
+  background-color: #C5CAE9;
+  color: #412234;
+}
+.social-ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.social-ul a {
+  border-radius: 50%;
+  border: 3px dotted #412234;
+  height: 50px;
+  width: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #412234;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+p{
+  font-size: 20px;
+  font-family: 'Anybody', cursive;
+  
+}
+
+section h2 {
+  margin-bottom:0;
+  font-size: 40px;
+  
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 810px;
+  margin: 20px auto 0; 
+}
+
+.project-tile p {
+  font-size: 20px;
+  top-margin: 10px;
+  color: #000000;
+  
+}
+
+.project-tile {
+ max-width: 200px;
+ margin: 20px;
+ text-decoration: none;
+}
+
+.project-tile img {
+  max-width: 100%;
+}
+footer {
+  font-family: Anybody;
+  background-color: #412234;
+  color: #EFD2CB;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+@media (max-width: 440px) {
+  
+}

@@ -1,0 +1,74 @@
+  <div class="project-container">class="bg-md-trq"class="bg-md-trq" <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anybody&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav id="navbar">
+  <a href="#about">About</a>
+  <a href="#projects">Project</a>
+  <a href="#social">Social Media</a>
+</nav>
+  
+<header id="welcome-section">
+  <section>
+    <h1>Hello.</h1>
+    <h2>My name is Melike</h2>
+    <h2>and I am a Web Developer</h2> 
+  </section>
+</header>
+  <section id="about"><h2>About</h2>
+    <p>Hello everyone. My name is Melike. I am an electrical and electronics engineer. I've been interested in web development for a while. You can see the various projects I have done below. Thank you.</p>
+    </d>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-container">
+      <a href="https://codepen.io/melkeozdogan/pen/abKOyPR" target="_blank" class="project-tile">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Tesla_circa_1890.jpeg/220px-Tesla_circa_1890.jpeg" alt="Nikola Tesla Portfolio Page">
+        <p>Nikola Tesla Portfolio Page</p>
+        </d>
+      <a href="https://codepen.io/melkeozdogan/pen/dyKgBEp" target="_blank" class="project-tile">
+        <img src="https://i.pinimg.com/originals/07/55/13/07551380118a2385ce6cacd6e41e28d2.jpg" alt="Technical Documentation Page">
+        <p>Technical Documentation Page</p>
+        </d>
+      <a href="https://codepen.io/melkeozdogan/pen/NWzebRZ" target="_blank" class="project_tile">
+        <img src="https://i.pinimg.com/originals/4a/a0/12/4aa012abe5bacf0f802110b91507fcdd.jpg" alt="product landing page">
+             <p>Product Landing Page<p>
+        </d>
+      <a href="https://codepen.io/melkeozdogan/pen/LYrgwpb" target="_blank" class="project_tile">
+         <img src="https://i.pinimg.com/originals/dc/81/08/dc81088102fe0d9914dec0d400e53d4c.jpg" alt="building a penguin" >
+        <p>Building a Penguin</p>
+        </d>
+    </div>
+    </section>
+
+  <section class="bg-md-trq" id="social">
+    <h2>Social Media</h2>
+    <p>My social media accounts</p>
+    <ul class="social-ul">
+      <li><a href="https://www.linkedin.com/in/melikeozdogan/" id="profile-link" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+      <li><a href="https://github.com/melkeozdogan" id="profile-link" target="_blank"><i class="fab fa-github"></i></a></li>
+      <li><a href="https://www.instagram.com/melkeozdogan/" id="profile-link" target="_blank"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+    </section>
+<footer>Designed by Melike</footer>
+  </body>
+</html>
+  
+
+
